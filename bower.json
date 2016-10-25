@@ -1,0 +1,15 @@
+{
+  "name": "timbrebot",
+  "description": "Telegram and arduino powered dorbell",
+  "main": "inde.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "config.js"
+  ]
+}
