@@ -48,7 +48,7 @@ five.Board().on("ready", function() {
   });
 
   //[telegram] Evento palabra: Pop
-  bot.onText(/Pop/, function (msg, match) {
+  bot.onText(/Pop/ig, function (msg, match) {
 	  //guardamos el id del cliente.
     var fromId = msg.from.id;
 
@@ -66,7 +66,7 @@ five.Board().on("ready", function() {
   });	  	
 
   //[telegram] Evento palabra: 'Who'.
-	bot.onText(/Who/, function (msg, match) {
+	bot.onText(/Who/ig, function (msg, match) {
     //guardamos el id del cliente.
     var fromId = msg.from.id;
     //verificamos el estado.
